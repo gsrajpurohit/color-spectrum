@@ -5,13 +5,16 @@ You can download the plugin from GitHub.
 
 ### 2. Load the required files
 Inside the page's head tag include the colorbox's CSS file.
+```
+<link rel="stylesheet" type="text/css" href="css/colorbox.css" />
+```
 
 In the page's footer, just before, include the required JavaScript files.
 
 ```
-<script src="libs/js/jquery-1.11.0.min.js"></script>
-<script src="dist/js/jquery.colorBox.min.js"></script>
+<script src="js/jquery.colorBox.min.js"></script>
 ```
+
 ### 3. Create the HTML markup
 `<div id="my-color-box"></div>`
 
