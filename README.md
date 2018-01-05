@@ -12,7 +12,7 @@ Inside the page's head tag include the colorbox's CSS file.
 In the page's footer, just before, include the required JavaScript files.
 
 ```
-<script src="js/jquery.colorBox.min.js"></script>
+<script src="js/colorBox.min.js"></script>
 ```
 
 ### 3. Create the HTML markup
