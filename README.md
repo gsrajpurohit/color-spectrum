@@ -32,7 +32,7 @@ In the page's footer, just before, include the required JavaScript files.
 </script>
 ```
 ### Demo
-[Demo](http://jsfiddle.net/g_s_rajpurohit/n6ts50y8/1/).
+[Demo](http://jsfiddle.net/g_s_rajpurohit/n6ts50y8/26/).
 
 ### Support
 If you found a bug or have a feature suggestion, please email me on rajpurohitganpat@gmail.com.
