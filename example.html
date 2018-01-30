@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Color Box - The Plugin</title>
+    <link rel="stylesheet" type="text/css" href="css/colorbox.css" />
+    <style type="text/css">
+        .container {
+          padding: 10px 0 0 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <input type="button" value="click" id="colorbox" class="btn-action btn btn-xs btn-primary" />
+        <br />
+        <br />
+        <input type="button" value="click" id="colorbox1" class="btn-action btn btn-xs btn-primary" />
+        <br />
+        <br />
+        <input type="button" value="click" id="colorbox2" class="btn-action btn btn-xs btn-primary" />
+        <br />
+        <br />
+        <input type="button" value="click" id="colorbox3" class="btn-action btn btn-xs btn-primary" />
+    </div>
+    <!-- core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/colorbox.min.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        $('#colorbox').colorbox({
+            position: 'top',
+            duration: 300,
+            trigger: 'click',
+            easing: 'slide',
+        });
+        $('#colorbox1').colorbox({
+            position: 'right',
+            duration: 300,
+            trigger: 'click',
+            easing: 'fade',
+        });
+        $('#colorbox2').colorbox({
+            position: 'left',
+            duration: 300,
+            trigger: 'click',
+            easing: 'slide',
+        });
+        $('#colorbox3').colorbox({
+            position: 'bottom',
+            duration: 300,
+            trigger: 'click',
+            easing: 'fade',
+        });
+    })
+    </script>
+</body>
+
+</html>
